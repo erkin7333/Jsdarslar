@@ -55,11 +55,11 @@
 
 // ContextThis yordamida massiv ichidagi sonlarni ko'paytirish
 
-const array = [10, 20, 30, 40, 50, 60, 70]
-
-Array.prototype.logger = function (number) {
-    return this.map(function (i){
-        return i * number
-    })
-}
-console.log(array.logger(2))
+// const array = [10, 20, 30, 40, 50, 60, 70]
+//
+// Array.prototype.logger = function (number) {
+//     return this.map(function (i){
+//         return i * number
+//     })
+// }
+// console.log(array.logger(2))

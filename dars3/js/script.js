@@ -40,3 +40,11 @@
 // console.log(ruUrl('twitter'))
 // console.log(ruUrl('instagram'))
 // console.log(ruUrl('yandex'))
+
+function personInfo() {
+    console.log(`
+    Name: ${this.name},
+    Age: ${this.age},
+    Job: ${this.job}`)
+}
+

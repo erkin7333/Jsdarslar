@@ -85,7 +85,7 @@ class Circle extends Component {
         this.$el.style.height = options.size + 'px'
         this.$el.style.background = options.color
         this.$el.style.borderRadius = '50%'
-        this.$el.style.border = options.border + 'px solid transparent'
+        this.$el.style.border = options.border + 'px solid #34379d '
     }
 }
 
@@ -94,7 +94,7 @@ const square1 = new Circle({
     size: 100,
     radius: 50,
     color: 'crimson',
-    border: 25
+    border: 5
 });
 
 const square2 = new Circle({
@@ -102,6 +102,6 @@ const square2 = new Circle({
     radius: 50,
     size: 100,
     color: 'coral',
-    border: 25
+    border: 5
 });
 
